@@ -1,0 +1,355 @@
+@media screen and (max-width:1315px){
+    .experiencia{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:1080px){
+    #triangulo{
+        left: 60%;
+    }
+    .habilidades .cards{
+        padding-top: 6%;
+        grid-template-rows: repeat(2,180px);
+    }
+
+    .habilidades .cards >div{
+        width: 70%;
+    }
+
+    .pro-cards{
+        grid-template-columns: 2fr 3fr;
+        gap: 1rem;
+    }
+
+    .image{
+        width: 180px;
+        height: 100px;
+    }
+
+}
+
+@media screen and (max-width:992px){
+    .exp-cont{
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr;
+        height: 100%;
+    }
+
+    .pro-cards{
+        grid-template-columns: 2fr 3fr;
+        background-color: rgba(0, 0, 0, 0.678);
+    }
+
+    .webApps .iconos img{
+        width: 25%;
+    }
+
+    .mail-message{
+        height: 20%;
+        text-align: center;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+}
+
+@media screen and (max-width: 920px){
+    .nav-bar .botones a{
+        font-size: 1.2rem;
+    }
+
+    .habilidades .cards{
+        padding-top: 10%;
+        grid-template-rows: repeat(2,160px);
+    }
+
+    .habilidades .cards img{
+        width: 25%;
+        margin-bottom: 0.5rem;
+    }
+
+    .fonbar{
+        width: 60px;
+    }
+
+    .habilidades .cards >div{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:840px){
+    .nav-bar .botones a{
+        font-size: 1rem;
+    }
+
+    .presentacion .intro h1{
+        font-size: 2rem;
+    }
+
+    #glitch-let{
+        font-size: 2.5rem;
+    }
+
+    #triangulo{
+        left: 55%;
+        width: 34%;
+    }
+
+    .habilidades .cards >div{
+        width: 80%;
+    }
+
+    .exp-cont .experiencia{
+        width: 100%;
+    }
+
+    .pro-cards{
+        background-color: rgba(0, 0, 0, 0.678);
+        grid-template-columns: 2fr 3fr;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .nav-bar{
+        padding-left: 10px;
+        justify-content: space-between;
+    }
+    .nav-bar .brand-icon a{
+        font-size: 1.5rem;
+    }
+
+    .nav-bar .brand-icon span{
+        font-size: 1.7rem;
+    }
+    
+    .botones{
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(36, 39, 39);
+        position: fixed;
+        left: 0;
+        top: 50px;
+        width: 100%;
+        padding:0;
+        z-index: 1;
+
+        height: calc(100% - 50px);
+        overflow-y: auto;
+
+        left: 100%;
+        transition: left 0.3s;
+    }
+    
+    .nav-link:hover{
+        background: none;
+        color: rgb(95, 176, 223);
+    }
+
+    .toggle{
+        display: block;
+    }
+
+    .nav-menu_visible{
+        left: 0;
+    }
+
+    .presentacion .intro h1{
+        font-size: 1.7rem;
+    }
+
+    #glitch-let{
+        font-size: 2rem;
+    }
+
+    .descripcion h2{
+        font-size: 2rem;
+    }
+
+    .sobre-leo .mi-yo .hobits img{
+        width: 15%;
+    }
+
+    #triangulo{
+        width: 30%;
+    }
+    .habilidades .cards{
+        width: 100%;
+        padding-top: 14%;
+    }
+    .mail-message{
+        height: 20%;
+        width: 50%;
+        top: 75%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .presentacion{
+        flex-direction: column;
+        align-items: center;
+        height: 30rem;
+    }
+
+    .presentacion .imagen-content img{
+        height: 20rem;
+    }
+
+    .presentacion .intro{
+        gap: 0.5rem;
+    }
+
+    .presentacion .intro a{
+        margin-top: 0.5rem;
+        padding: 0.5rem 0.5rem;
+    }
+
+    #triangulo{
+        width: 35%;
+        bottom: 25%;
+        left: 50%;
+    }
+
+    .habilidades .hab-head{
+        font-size: 3rem;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .habilidades .cards{
+        padding-top: 14%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .habilidades .cards{
+        width: 100%;
+        padding-top: 18%;
+    }
+    .pro-cards{
+        height: 180px;
+    }
+    .webApps .iconos img{
+        width: 35%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .hab-head{
+        font-size: 1rem;
+    }
+    .habilidades .cards{
+        width: 80%;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(5,1fr);
+        padding-top: 0;
+    }
+
+    .habilidades .cards img{
+        width: 15%;
+        margin-bottom: 0;
+    }
+
+    .habilidades .cards > div{
+        margin: 0.5rem;
+        gap: 0;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:470px){
+    .exp-cont{
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr;
+    }
+    .pro-cards{
+        grid-template-columns: 1fr;
+        grid-template-rows: 160px 1fr;
+        height: 100%;
+        width: 90%;
+        margin: 0 auto;
+        padding: 2px 5px;
+        border-radius: 10px;
+    }
+
+    .pro-cards img{
+        padding: 0;
+        margin: 0 auto;
+        gap: 0;
+    }
+
+    .webApps .iconos img{
+        width: 40%;
+    }
+    .mail-message{
+        height: 15%;
+        width: 60%;
+        top: 80%;
+    }
+}
+
+@media screen and (max-width:395px){
+    .sobre-leo{
+        height: 400px;
+        justify-content: center;
+        width: 100%;
+        align-items: start;
+        background-image: linear-gradient(to right, rgb(59, 62, 63),rgba(32, 30, 30, 0.664));
+    }
+
+    .sobre-leo .mi-yo{
+        width: 80%;
+        height: 70%;
+        gap: 0;
+    }
+
+    .descripcion h2{
+        font-size: 2rem;
+        margin-bottom: 0.2rem;
+    }
+    
+    .descripcion p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #triangulo{
+        top: 60%;
+        left: 30%;
+    }
+
+    .habilidades .hab-head{
+        font-size: 1.5rem;
+    }
+
+    .habilidades .cards{
+        width: 95%;
+        height: 100%;
+        text-align: start;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(5,1fr);
+        padding-top: 0;
+    }
+
+    .habilidades .cards img{
+        width: 40%;
+        margin-bottom: 0;
+        margin: 5px;
+    }
+
+    .habilidades .cards > div{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .card-text{
+        padding-left: 10px;
+    }
+
+    .contacto-container .correo{
+        width: 200px;
+    }
+}
